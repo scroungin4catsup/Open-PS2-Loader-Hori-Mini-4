@@ -6,10 +6,12 @@
 #define USB_SUBCLASS_RF_CONTROLLER    0x01
 #define USB_PROTOCOL_BLUETOOTH_PROG   0x01
 
+// DS34_VID, DS3_PID, and DS4_PID have been changed to the VID and PID values of the Hori Fighting Stick Mini 4
+
 #define SONY_VID            0x12ba // Sony
-#define DS34_VID            0x054C // Sony Corporation
-#define DS3_PID             0x0268 // PS3 Controller
-#define DS4_PID             0x05C4 // PS4 Controller
+#define DS34_VID            0x0F0D // Sony Corporation
+#define DS3_PID             0x0088 // PS3 Controller
+#define DS4_PID             0x0087 // PS4 Controller
 #define DS4_PID_SLIM        0x09CC // PS4 Slim Controller
 #define GUITAR_HERO_PS3_PID 0x0100 // PS3 Guitar Hero Guitar
 #define ROCK_BAND_PS3_PID   0x0200 // PS3 Rock Band Guitar
