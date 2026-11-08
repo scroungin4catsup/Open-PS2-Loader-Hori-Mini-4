@@ -1,3 +1,5 @@
+This is a fork of Open PS2 Loader that allows users to use the Hori Fighting Stick Mini 4 for the Playstation 3 and 4 as a controller through Pademu
+
 # Open PS2 Loader
 
 ![logo](https://github.com/ps2homebrew/Open-PS2-Loader/blob/master/gfx/logo.png)
