@@ -9,7 +9,6 @@
 #define SONY_VID            0x12ba // Sony
 #define DS34_VID            0x054C // Sony Corporation
 #define HORI_VID            0x0F0D // Hori Co. Ltd
-#define LOGITECH_VID        0x046D // Logitech, Inc.
 #define DS3_PID             0x0268 // PS3 Controller
 #define DS4_PID             0x05C4 // PS4 Controller
 #define DS4_PID_SLIM        0x09CC // PS4 Slim Controller
@@ -17,8 +16,6 @@
 #define ROCK_BAND_PS3_PID   0x0200 // PS3 Rock Band Guitar
 #define HORI_MINI_PS3_PID   0x0088 // PS3 Mode Hori Fighting Stick Mini
 #define HORI_MINI_PS4_PID   0x0087 // PS4 Mode Hori Fighting Stick Mini
-#define F310_D_PID          0xC216 // Logitech F310 Dinput
-#define F310_X_PID          0xC21D // Logitech F310 Xinput
 
 // NOTE: struct member prefixed with "n" means it's active-low (i.e. value of 0 indicates button is pressed, value 1 is released)
 enum DS2ButtonBitNumber {
